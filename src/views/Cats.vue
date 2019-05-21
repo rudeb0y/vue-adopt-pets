@@ -1,15 +1,18 @@
 <template>
   <div>
-    <b-table striped hover :items="items"></b-table>
-    Cats</div>
+    <h1>Cats for Adoption</h1>
+    <b-table striped hover :items="cats"></b-table>
+  </div>
 </template>
+
 <script>
+import cats from '@/data/cats.js'
+
 export default {
-  data() {
+  data () {
     return {
-      items: null
+      cats
     }
   }
 }
 </script>
-

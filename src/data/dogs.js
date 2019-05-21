@@ -18,5 +18,5 @@ export default [
     weight: 68,
     location: 'threed',
     notes: 'super friendly'
-  },
+  }
 ]
